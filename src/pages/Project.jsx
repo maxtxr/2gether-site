@@ -6,7 +6,7 @@ import stages from '../data/stages.js'
 import Icon from '../components/Icons.jsx'
 
 const pad = (n) => String(n).padStart(2, '0')
-const prototypeStage = stages.find((s) => s.slug === 'computational-prototype') || stages[0]
+const prototypeStage = stages.find((s) => s.slug === 'functional-prototype') || stages[0]
 
 export default function Project() {
   return (

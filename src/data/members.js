@@ -1,5 +1,5 @@
 // number: student number
-// status: 'tba' | 'open' | 'in-progress' | 'done'
+// status: 'tba' | 'in-progress' | 'done'
 // report: Google Drive URL of that member's report, or null when unpublished
 
 const members = [
@@ -14,12 +14,10 @@ const members = [
         description:
           'One example of good UI design and one of bad UI design, judged on a specific aspect and justified with concrete reasons.',
         dueDate: '5 November',
-        status: 'open',
+        status: 'in-progress',
         report: null,
       },
       { id: 'm1-a2', title: 'TBA', description: 'Assignment details to be announced.', dueDate: 'TBA', status: 'tba', report: null },
-      { id: 'm1-a3', title: 'TBA', description: 'Assignment details to be announced.', dueDate: 'TBA', status: 'tba', report: null },
-      { id: 'm1-a4', title: 'TBA', description: 'Assignment details to be announced.', dueDate: 'TBA', status: 'tba', report: null },
     ],
   },
   {
@@ -33,12 +31,10 @@ const members = [
         description:
           'One example of good UI design and one of bad UI design, judged on a specific aspect and justified with concrete reasons.',
         dueDate: '5 November',
-        status: 'open',
+        status: 'in-progress',
         report: null,
       },
       { id: 'm2-a2', title: 'TBA', description: 'Assignment details to be announced.', dueDate: 'TBA', status: 'tba', report: null },
-      { id: 'm2-a3', title: 'TBA', description: 'Assignment details to be announced.', dueDate: 'TBA', status: 'tba', report: null },
-      { id: 'm2-a4', title: 'TBA', description: 'Assignment details to be announced.', dueDate: 'TBA', status: 'tba', report: null },
     ],
   },
   {
@@ -52,12 +48,10 @@ const members = [
         description:
           'One example of good UI design and one of bad UI design, judged on a specific aspect and justified with concrete reasons.',
         dueDate: '5 November',
-        status: 'open',
+        status: 'in-progress',
         report: null,
       },
       { id: 'm3-a2', title: 'TBA', description: 'Assignment details to be announced.', dueDate: 'TBA', status: 'tba', report: null },
-      { id: 'm3-a3', title: 'TBA', description: 'Assignment details to be announced.', dueDate: 'TBA', status: 'tba', report: null },
-      { id: 'm3-a4', title: 'TBA', description: 'Assignment details to be announced.', dueDate: 'TBA', status: 'tba', report: null },
     ],
   },
   {
@@ -71,12 +65,10 @@ const members = [
         description:
           'One example of good UI design and one of bad UI design, judged on a specific aspect and justified with concrete reasons.',
         dueDate: '5 November',
-        status: 'open',
+        status: 'in-progress',
         report: null,
       },
       { id: 'm4-a2', title: 'TBA', description: 'Assignment details to be announced.', dueDate: 'TBA', status: 'tba', report: null },
-      { id: 'm4-a3', title: 'TBA', description: 'Assignment details to be announced.', dueDate: 'TBA', status: 'tba', report: null },
-      { id: 'm4-a4', title: 'TBA', description: 'Assignment details to be announced.', dueDate: 'TBA', status: 'tba', report: null },
     ],
   },
 ]
