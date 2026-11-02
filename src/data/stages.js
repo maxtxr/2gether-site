@@ -63,11 +63,11 @@ const stages = [
     slug: 'first-prototype',
     title: '1st Prototype (mock-up)',
     dates: '26/28 October (tests) - 2 November (report)',
-    status: 'active',
+    status: 'done',
     summary:
       'Build a throw-away paper prototype of 2Gether that handles at least 3 of the scenarios from the task analysis, brief the test users, run the tests in class on 26/28 October and write the prototype report.',
     blurb: 'Paper prototype, storyboards and in-class user tests.',
-    report: null,
+    report: 'https://drive.google.com/file/d/1Z_F83wtGeYCJIOPvAHED0czw56tFsCzK/view?usp=drive_link',
     objectives: [
       'Sketch the interface by hand and brainstorm alternative designs before selecting the one to develop',
       'Describe how the preliminary interface performs each of the 3 scenarios (storyboards)',
@@ -88,7 +88,7 @@ const stages = [
     id: 4,
     slug: 'computational-prototype',
     title: 'Computational prototype',
-    dates: 'TBA',
+    dates: 'active',
     status: 'upcoming',
     summary: 'To be announced when the stage assignment is published.',
     blurb: 'To be announced.',
