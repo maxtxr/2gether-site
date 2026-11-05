@@ -65,8 +65,8 @@ const members = [
         description:
           'One example of good UI design and one of bad UI design, judged on a specific aspect and justified with concrete reasons.',
         dueDate: '5 November',
-        status: 'in-progress',
-        report: null,
+        status: 'done',
+        report: 'https://drive.google.com/file/d/1dEB9G58JLo2yN502NMf57DDoJ5LsnCzU/view?usp=sharing',
       },
       { id: 'm4-a2', title: 'TBA', description: 'Assignment details to be announced.', dueDate: 'TBA', status: 'tba', report: null },
     ],
