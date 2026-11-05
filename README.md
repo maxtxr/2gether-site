@@ -56,7 +56,7 @@ from that data.
 
 | Route             | Page                                                                     |
 | ----------------- | ------------------------------------------------------------------------ |
-| `/`               | Overview: hero, product goals, the six stage cards                       |
+| `/`               | Overview: hero, the six stage cards, product goals, assignment progress  |
 | `/project`        | The product: problem, target users, goal, competitive analysis, features |
 | `/stages`         | All six stages as cards, straight to each stage page                     |
 | `/stages/:slug`   | One page per stage: objectives, deliverables, report                     |

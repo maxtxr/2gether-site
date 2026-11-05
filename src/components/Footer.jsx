@@ -35,7 +35,7 @@ export default function Footer() {
               <Link to="/assignments">Assignments</Link>
             </li>
             <li>
-              <a href="https://github.com/" target="_blank" rel="noreferrer">
+              <a href="https://github.com/maxtxr/2gether-site.git" target="_blank" rel="noreferrer">
                 Repository
                 <Icon name="arrowUpRight" size={13} />
               </a>

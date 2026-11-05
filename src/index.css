@@ -1627,6 +1627,97 @@ p {
   text-decoration: none;
 }
 
+/* Home: assignments overview ---------------------------------------------- */
+
+.assign-overview {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(16rem, 100%), 1fr));
+  gap: 1rem;
+}
+
+.assign-member {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1.35rem 1.4rem;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: 0 1px 2px rgba(3, 18, 12, 0.05);
+  transition: border-color 0.15s var(--ease), box-shadow 0.15s var(--ease);
+}
+
+.assign-member:hover {
+  border-color: var(--line-strong);
+  box-shadow: 0 2px 6px rgba(3, 18, 12, 0.08);
+}
+
+.assign-member__top {
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+}
+
+.assign-member__id {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.assign-member__name {
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: -0.015em;
+}
+
+.assign-member__number {
+  font-family: 'JetBrains Mono', ui-monospace, monospace;
+  font-size: 0.72rem;
+  letter-spacing: 0.06em;
+  color: var(--ink-mute);
+}
+
+.assign-member__count {
+  margin-left: auto;
+  flex: none;
+  font-family: 'JetBrains Mono', ui-monospace, monospace;
+  font-size: 0.78rem;
+  font-weight: 500;
+  color: var(--orange-ink);
+}
+
+.assign-member .member-bar {
+  display: block;
+  margin-top: 0;
+}
+
+.assign-member__foot {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  font-size: 0.82rem;
+  color: var(--ink-mute);
+}
+
+.assign-member__go {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.75rem;
+  height: 1.75rem;
+  flex: none;
+  border: 1px solid var(--line);
+  border-radius: 50%;
+  color: var(--orange-ink);
+  transition: border-color 0.15s var(--ease), background-color 0.15s var(--ease);
+}
+
+.assign-member:hover .assign-member__go {
+  border-color: transparent;
+  background: var(--orange-tint);
+}
+
 /* 14. Footer (green) ------------------------------------------------------ */
 
 .site-footer {
