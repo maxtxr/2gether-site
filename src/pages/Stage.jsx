@@ -61,15 +61,40 @@ export default function Stage() {
 
         <section>
           <h2>Report</h2>
-          <div className="report">
+          <div className="report" style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+            {stage.builds && stage.builds.length > 0 && (
+              <div
+                className="builds-row"
+                style={{
+                  display: 'flex',
+                  flexDirection: 'row',
+                  flexWrap: 'wrap',
+                  alignItems: 'center',
+                  gap: '0.75rem',
+                }}
+              >
+                {stage.builds.map((build) => (
+                  <a
+                    key={build.url}
+                    href={build.url}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="button button--secondary"
+                    style={{ whiteSpace: 'nowrap' }}
+                  >
+                    {build.label} →
+                  </a>
+                ))}
+              </div>
+            )}
+
             {stage.report ? (
               <a href={stage.report} target="_blank" rel="noreferrer">
                 Stage report - Google Drive
               </a>
             ) : (
               <p className="report__empty">
-                The report for this stage has not been written yet. It will be
-                published here once the stage is complete.
+                The report for this stage is being finalized. It will be published here once available.
               </p>
             )}
           </div>
