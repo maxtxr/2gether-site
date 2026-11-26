@@ -92,7 +92,7 @@ const stages = [
     summary:
       'Build a high-fidelity interactive computational prototype on React Native and Supabase responding to Stage 3 user test findings. Features include real-time event discovery with OpenStreetMap/Leaflet geocoding, attendee chat threads, post-event accessibility accuracy auditing, and user management.',
     blurb: 'High-fidelity mobile prototype and comprehensive system evaluation setup.',
-    report: null,
+    report: 'https://drive.google.com/file/d/17Uu8K_JLqTuQOXAZIPDlNm0a7hWvoLJW/view?usp=drive_link',
     builds: [
       {
         label: 'Download Standalone Android App (.apk)',
